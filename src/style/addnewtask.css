@@ -1,0 +1,33 @@
+.addnewtaskinput{
+    outline: none;
+    border: 0px;
+    box-shadow: rgb(149, 147, 147) 0px 0px 2px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.addcontainercard{
+    box-shadow: rgb(150, 150, 150) 0px 0px 10px;
+    width: 50%;
+    min-width: 200px;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: rgb(218, 255, 255);
+}
+
+.addcontainerscreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+@media screen and (max-width:426px) {
+    .addcontainercard{
+        width: 300px;
+        margin: auto;
+    }
+}

@@ -1,0 +1,95 @@
+.taskCard{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    box-shadow: black 0px 0px 5px;
+    margin: 1rem auto 0px;
+    background-color: whitesmoke;
+    height: fit-content;
+}
+
+.homepagebtncontainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    flex: 1;
+    margin-top: 1rem;
+    padding: 1rem 0px;
+    overflow-y: scroll;
+    row-gap: 10px;
+}
+
+.description{
+    padding: 1rem 0px;
+}
+
+.cardbtn{
+    border: 0px;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.cardbtn:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+h2,.description{
+    background-color: white;
+    padding: 5px 0px;
+    margin: 2px 0px;
+    overflow: hidden;
+}
+
+.headingdiv{
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0px 0px;
+}
+
+.newtaskbtn{
+    padding: 5px 1rem;
+    background-color: blue;
+    font-weight: 900;
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+    margin-top: 1rem;
+}
+
+.newtaskbtn:hover{
+    cursor: pointer;
+}
+
+.newtaskbtncontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(206, 241, 241);
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.notaskcard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
